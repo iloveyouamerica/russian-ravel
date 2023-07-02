@@ -17,4 +17,4 @@
 
 **Ссылка на GitHub-page**
 
-[Ссылка на проект в GitHub-Pages] https://iloveyouamerica.github.io/russian-travel/
+[Ссылка на проект в GitHub-Pages] https://iloveyouamerica.github.io/russian-ravel/
