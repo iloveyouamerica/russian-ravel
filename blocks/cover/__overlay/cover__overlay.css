@@ -1,0 +1,66 @@
+.cover__overlay {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background: url(https://rumniwomg.github.io/russian-travel/images/cover-trains.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  min-height: 740px;
+  height: 100%;
+}
+
+.cover__overlay::before {
+  content: " ";
+  background: #2A2C2F;
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: .3;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.cover__overlay:hover::before {
+  opacity: .8;
+  transition: 1s;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .cover__overlay {
+    min-height: 344px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__overlay {
+    min-height: 266px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .cover__overlay {
+    min-height: 200px;
+    max-width: 320px;
+  }
+}
